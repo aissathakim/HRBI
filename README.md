@@ -29,35 +29,88 @@ Bonus_Entity
         
 Employee_Entity
 
-        [Employee_Entity_To_Ref_Values_Mappings]
-        [Employee_Entity_To_Ref_Values]
-                [Employee_Entity_To_Employee_I9_Status]
-                [Employee_Entity_To_Employee_Aboriginal]
-                [Employee_Entity_To_Employee_Disability]
-                [Employee_Entity_To_Employee_Ethnicity]
-                [Employee_Entity_To_Employee_Gender]
-                [Employee_Entity_To_Employee_Marital_Status]
-                [Employee_Entity_To_Employee_Military_Status]
-                [Employee_Entity_To_Employee_Status]
-                [Employee_Entity_To_Employee_Suffix]
-                [Employee_Entity_To_Position_Collar]
-                [Employee_Entity_To_Position_Full_Part_Time]
-                [Employee_Entity_To_Position_Grade]
-                [Employee_Entity_To_Position_Group]
-                [Employee_Entity_To_Position_Subgroup]
-                [Employee_Entity_To_Position_Type]
-                [Employee_Entity_To_Position_Union]
-                [Employee_Entity_To_Employee_Language]
+        Employee_Entity_To_Ref_Values_Mappings
+        Employee_Entity_To_Ref_Values
+                Employee_Entity_To_Employee_I9_Status
+                Employee_Entity_To_Employee_Aboriginal
+                Employee_Entity_To_Employee_Disability
+                Employee_Entity_To_Employee_Ethnicity
+                Employee_Entity_To_Employee_Gender
+                Employee_Entity_To_Employee_Marital_Status
+                Employee_Entity_To_Employee_Military_Status
+                Employee_Entity_To_Employee_Status
+                Employee_Entity_To_Employee_Suffix
+                Employee_Entity_To_Position_Collar
+                Employee_Entity_To_Position_Full_Part_Time
+                Employee_Entity_To_Position_Grade
+                Employee_Entity_To_Position_Group
+                Employee_Entity_To_Position_Subgroup
+                Employee_Entity_To_Position_Type
+                Employee_Entity_To_Position_Union
+                Employee_Entity_To_Employee_Language
                        
-        [Employee_Entity_To_Range]
-        [Employee_Entity_To_Effective_Date]
+        Employee_Entity_To_Range
+        Employee_Entity_To_Effective_Date
                 COST_CENTER_EFFECTIVE_DT
                 LOCATION_EFFECTIVE_DT
                 ORG_UNIT_EFFECTIVE_DT
                 PAYROLL_EFFECTIVE_DT
                 EMPLOYEE_EFFECTIVE_DT
                 
-        [Employee_Entity_To_Cost_Center]
-        [Employee_Entity_To_Location]
-        [Employee_Entity_To_Org_Unit]
-        [Employee_Entity_To_Payroll]
+        Employee_Entity_To_Cost_Center
+        Employee_Entity_To_Location
+        Employee_Entity_To_Org_Unit
+        Employee_Entity_To_Payroll
+
+Job_Entity
+
+        Job_Entity_To_Ref_Values
+        Job_Entity_To_Ref_Values_Mappings
+                Job_Entity_To_Occupation_Collar
+                Job_Entity_To_Occupation_Full_Part_Time
+                Job_Entity_To_Occupation_Grade
+                Job_Entity_To_Occupation_Group
+                Job_Entity_To_Occupation_Subgroup
+                Job_Entity_To_Occupation_Type
+                Job_Entity_To_Occupation_Union
+
+        Job_Entity_To_Range
+        Job_Entity_To_Effective_Date
+                COST_CENTER_EFFECTIVE_DT
+                LOCATION_EFFECTIVE_DT
+                ORG_UNIT_EFFECTIVE_DT
+                PAYROLL_EFFECTIVE_DT
+                EMPLOYEE_MANAGER_EFFECTIVE_DT
+        
+        Job_Entity_To_Cost_Center
+        Job_Entity_To_Location
+        Job_Entity_To_Org_Unit
+        Job_Entity_To_Payroll
+        
+Position_Entity        
+
+        Position_Entity_To_Ref_Values_Mappings
+        Position_Entity_To_Ref_Values
+        
+                Position_Entity_To_Position_Collar
+                Position_Entity_To_Position_Full_Part_Time
+                Position_Entity_To_Position_Grade
+                Position_Entity_To_Position_Group
+                Position_Entity_To_Position_Subgroup
+                Position_Entity_To_Position_Type
+                Position_Entity_To_Position_Union
+                Position_Entity_To_Position_Pay_Frequency
+                
+        Position_Entity_To_Range
+        Position_Entity_To_Effective_Date
+                COST_CENTER_EFFECTIVE_DT
+                LOCATION_EFFECTIVE_DT
+                ORG_UNIT_EFFECTIVE_DT
+                PAYROLL_EFFECTIVE_DT
+                EMPLOYEE_EFFECTIVE_DT
+                
+        Position_Entity_To_Cost_Center
+        Position_Entity_To_Location
+        Position_Entity_To_Org_Unit
+        Position_Entity_To_Payroll
+        
