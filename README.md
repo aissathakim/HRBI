@@ -1,130 +1,188 @@
 # HRBI
-ldv
 
-01_Action_Entity_To_Action_Entity
-01_Action_Entity_To_Range
-01_Action_Entity_To_Effective_Date
-        01_Action_Entity_To_Action_Category
-        01_Action_Entity_To_Action_Employee_Status
-        01_Action_Entity_To_Action_Reason
-        01_Action_Entity_To_Action_Type
+lun : union
 
+                01_Action_Entity_To_Ranges
+                01_Action_Entity_To_Ref_Values
+                01_Action_Entity_To_Ref_Values_Mappings
 
-02_Bonus_Entity_To_Bonus_Entity
-02_Bonus_Entity_To_Range
-02_Bonus_Entity_To_Effective_Date
-        02_Bonus_Entity_To_Bonus_Currency
-        02_Bonus_Entity_To_Bonus_Reason
-        02_Bonus_Entity_To_Bonus_Type
+                02_Bonus_Entity_To_Ranges
+                02_Bonus_Entity_To_Ref_Values
+                02_Bonus_Entity_To_Ref_Values_Mappings
 
-03_Cost_Center_Fnc_Area_To_Cost_Center_Fnc_Area
-        03_Cost_Center_Fnc_Area_To_Cost_Center
-        03_Cost_Center_Fnc_Area_To_Fnc_Area
+                03_Cost_Center_Fnc_Area_To_Ref_Values
+                03_Cost_Center_Fnc_Area_To_Ref_Values_Mappings
 
-04_Employee_Ad_To_Employee_Ad
-05_Employee_Champion_To_Employee_Champion
+        04_Employee_Ad_To_Employee_Ad
 
-06_Employee_Division_To_Division
-06_Employee_Division_To_Org_Unit
-
-07_Employee_Division_Group_To_Division_Group
-        07_Employee_Division_Group_To_Division_Group_Location_Type
-        07_Employee_Division_Group_To_Location_Type
-        07_Employee_Division_Group_To_Division
-
-
-08_Employee_Emp_Aux_Man_Ref_To_Employee_Emp_Aux_Man_Ref
-
-09_Employee_Entity_To_Employee_Entity
-
-        09_Employee_Entity_To_Employee_Aboriginal
-        09_Employee_Entity_To_Employee_I9_Status
-        09_Employee_Entity_To_Employee_Disability
-        09_Employee_Entity_To_Employee_Ethnicity
-        09_Employee_Entity_To_Employee_Gender
-        09_Employee_Entity_To_Employee_Marital_Status
-        09_Employee_Entity_To_Employee_Military_Status
-        09_Employee_Entity_To_Employee_Status
-        09_Employee_Entity_To_Employee_Suffix
-        09_Employee_Entity_To_Position_Collar
-        09_Employee_Entity_To_Position_Full_Part_Time
-        09_Employee_Entity_To_Position_Grade
-        09_Employee_Entity_To_Position_Group
-        09_Employee_Entity_To_Position_Subgroup
-        09_Employee_Entity_To_Position_Type
-        09_Employee_Entity_To_Position_Union
-        09_Employee_Entity_To_Employee_Language
+        05_Employee_Champion_To_Employee_Champion
+        
+                06_07_Division
+                07_Location_Type
                 
-        09_Employee_Entity_To_Action_Entity
-        09_Employee_Entity_To_Range
-        09_Employee_Entity_To_Effective_Date
-
-10_Employee_Groups_To_Employee_Groups
-10_Employee_Groups_To_Groups 
-11_Employee_HSA_To_Employee_HSA
-
-12_Exchange_Rates_Ref_To_Exchange_Rates_Ref
-        12_Exchange_Rates_Ref_To_Currency
-
-13_Job_To_Job
-
-14_Job_Entity_To_Job_Entity
-        14_Job_Entity_To_Job
-        14_Job_Entity_To_Occupation_Collar
-        14_Job_Entity_To_Occupation_Full_Part_Time
-        14_Job_Entity_To_Occupation_Grade
-        14_Job_Entity_To_Occupation_Group
-        14_Job_Entity_To_Occupation_Subgroup
-        14_Job_Entity_To_Occupation_Type
-        14_Job_Entity_To_Occupation_Union
+        08_Employee_Emp_Aux_Man_Ref_To_Employee_Emp_Aux_Man_Ref
         
-        14_Job_Entity_To_Range
-        14_Job_Entity_To_Effective_Date
+                09_Employee_Entity_To_Employee_DT
+                09_Employee_Entity_To_Ranges
+                09_Employee_Entity_To_Ref_Values
+                09_Employee_Entity_To_Ref_Values_Mappings
+                
+        10_Employee_Groups_To_Employee_Groups
         
-15_Locations_Hrmny_Ref_To_Locations_Hrmny_Ref
-
-16_Locations_Ref_To_16_Locations_Ref
-        16_Locations_Ref_To_Location
-        16_Locations_Ref_To_Location_Type
-
-
+        11_Employee_HSA_To_Employee_HSA
         
-
-
-17_Position_Entity_To_Position_Entity
-17_Position_Entity_To_Job
-17_Position_Entity_To_Position
-        17_Position_Entity_To_Range
-        17_Position_Entity_To_Effective_Date
-
-        17_Position_Entity_To_Position_Collar
-        17_Position_Entity_To_Position_Full_Part_Time
-        17_Position_Entity_To_Position_Grade
-        17_Position_Entity_To_Position_Group
-        17_Position_Entity_To_Position_Subgroup
-        17_Position_Entity_To_Position_Type
-        17_Position_Entity_To_Position_Union
-        17_Position_Entity_To_Position_Pay_Frequency
+                12_Exchange_Rates_Ref_To_Ref_Values
+                12_Exchange_Rates_Ref_To_Ref_Values_Mappings
+                
+        13_Job_To_Job
         
-        17_Position_Manager_To_Position
+                14_Job_Entity_To_Ranges
+                14_Job_Entity_To_Ref_Values
+                14_Job_Entity_To_Ref_Values_Mappings
+                
+        15_Locations_Hrmny_Ref_To_Locations_Hrmny_Ref
 
-18_Ref_Default_Values_To_Ref_Default_Values
-19_Ref_Values_To_Ref_Values
-20_Ref_Values_Mappings_To_Ref_Values
-20_Ref_Values_Mappings_To_Ref_Values_Mappings
-
-21_Salary_Entity_To_Salary_Entity
-
-        21_Salary_Entity_To_Compensation_Type
-        21_Salary_Entity_To_Currency
-        21_Salary_Entity_To_Salary_Level
-        21_Salary_Entity_To_Pay_Scale_Group
-        21_Salary_Entity_To_Salary_Reason
+        16_Locations_Ref_To_16_Locations_Ref
         
-        21_Salary_Entity_To_Action_Entity
-        21_Salary_Entity_To_Range
-        21_Salary_Entity_To_Effective_Date     
-ldt
+                17_Position_Entity_To_Ranges
+                17_Position_Entity_To_Ref_Values
+                17_Position_Entity_To_Ref_Values_Mappings
+                
+        18_Ref_Default_Values_To_Ref_Default_Values
+        19_Ref_Values_To_Ref_Values
+        20_Ref_Values_Mappings_To_Ref_Values_Mappings
+
+                21_Salary_Entity_To_Ranges
+                21_Salary_Entity_To_Ref_Values
+                21_Salary_Entity_To_Ref_Values_Mappings
+
+
+ldv :dataVault
+
+        01_Action_Entity_To_Action_Entity
+        01_Action_Entity_To_Range
+        01_Action_Entity_To_Effective_Date
+                01_Action_Entity_To_Action_Category
+                01_Action_Entity_To_Action_Employee_Status
+                01_Action_Entity_To_Action_Reason
+                01_Action_Entity_To_Action_Type
+
+
+        02_Bonus_Entity_To_Bonus_Entity
+        02_Bonus_Entity_To_Range
+        02_Bonus_Entity_To_Effective_Date
+                02_Bonus_Entity_To_Bonus_Currency
+                02_Bonus_Entity_To_Bonus_Reason
+                02_Bonus_Entity_To_Bonus_Type
+
+        03_Cost_Center_Fnc_Area_To_Cost_Center_Fnc_Area
+                03_Cost_Center_Fnc_Area_To_Cost_Center
+                03_Cost_Center_Fnc_Area_To_Fnc_Area
+
+        04_Employee_Ad_To_Employee_Ad
+        05_Employee_Champion_To_Employee_Champion
+
+        06_Employee_Division_To_Division
+        06_Employee_Division_To_Org_Unit
+
+        07_Employee_Division_Group_To_Division_Group
+                07_Employee_Division_Group_To_Division_Group_Location_Type
+                07_Employee_Division_Group_To_Location_Type
+                07_Employee_Division_Group_To_Division
+
+
+        08_Employee_Emp_Aux_Man_Ref_To_Employee_Emp_Aux_Man_Ref
+
+        09_Employee_Entity_To_Employee_Entity
+
+                09_Employee_Entity_To_Employee_Aboriginal
+                09_Employee_Entity_To_Employee_I9_Status
+                09_Employee_Entity_To_Employee_Disability
+                09_Employee_Entity_To_Employee_Ethnicity
+                09_Employee_Entity_To_Employee_Gender
+                09_Employee_Entity_To_Employee_Marital_Status
+                09_Employee_Entity_To_Employee_Military_Status
+                09_Employee_Entity_To_Employee_Status
+                09_Employee_Entity_To_Employee_Suffix
+                09_Employee_Entity_To_Position_Collar
+                09_Employee_Entity_To_Position_Full_Part_Time
+                09_Employee_Entity_To_Position_Grade
+                09_Employee_Entity_To_Position_Group
+                09_Employee_Entity_To_Position_Subgroup
+                09_Employee_Entity_To_Position_Type
+                09_Employee_Entity_To_Position_Union
+                09_Employee_Entity_To_Employee_Language
+
+                09_Employee_Entity_To_Action_Entity
+                09_Employee_Entity_To_Range
+                09_Employee_Entity_To_Effective_Date
+
+        10_Employee_Groups_To_Employee_Groups
+        10_Employee_Groups_To_Groups 
+        11_Employee_HSA_To_Employee_HSA
+
+        12_Exchange_Rates_Ref_To_Exchange_Rates_Ref
+                12_Exchange_Rates_Ref_To_Currency
+
+        13_Job_To_Job
+
+        14_Job_Entity_To_Job_Entity
+                14_Job_Entity_To_Job
+                14_Job_Entity_To_Occupation_Collar
+                14_Job_Entity_To_Occupation_Full_Part_Time
+                14_Job_Entity_To_Occupation_Grade
+                14_Job_Entity_To_Occupation_Group
+                14_Job_Entity_To_Occupation_Subgroup
+                14_Job_Entity_To_Occupation_Type
+                14_Job_Entity_To_Occupation_Union
+
+                14_Job_Entity_To_Range
+                14_Job_Entity_To_Effective_Date
+
+        15_Locations_Hrmny_Ref_To_Locations_Hrmny_Ref
+
+        16_Locations_Ref_To_16_Locations_Ref
+                16_Locations_Ref_To_Location
+                16_Locations_Ref_To_Location_Type
+
+
+
+
+
+        17_Position_Entity_To_Position_Entity
+        17_Position_Entity_To_Job
+        17_Position_Entity_To_Position
+                17_Position_Entity_To_Range
+                17_Position_Entity_To_Effective_Date
+
+                17_Position_Entity_To_Position_Collar
+                17_Position_Entity_To_Position_Full_Part_Time
+                17_Position_Entity_To_Position_Grade
+                17_Position_Entity_To_Position_Group
+                17_Position_Entity_To_Position_Subgroup
+                17_Position_Entity_To_Position_Type
+                17_Position_Entity_To_Position_Union
+                17_Position_Entity_To_Position_Pay_Frequency
+
+                17_Position_Manager_To_Position
+
+        18_Ref_Default_Values_To_Ref_Default_Values
+        19_Ref_Values_To_Ref_Values
+        20_Ref_Values_Mappings_To_Ref_Values
+        20_Ref_Values_Mappings_To_Ref_Values_Mappings
+
+        21_Salary_Entity_To_Salary_Entity
+
+                21_Salary_Entity_To_Compensation_Type
+                21_Salary_Entity_To_Currency
+                21_Salary_Entity_To_Salary_Level
+                21_Salary_Entity_To_Pay_Scale_Group
+                21_Salary_Entity_To_Salary_Reason
+
+                21_Salary_Entity_To_Action_Entity
+                21_Salary_Entity_To_Range
+                21_Salary_Entity_To_Effective_Date     
+ldt : dataTime
 
         01_Action_Entity
         02_Bonus_Entity
@@ -278,9 +336,11 @@ Salary_Entity
                 SALARY_END_DT
                 TARGET_BONUS_START_DT
                 TARGET_BONUS_END_DT
-                
-Exchange_Rates_Ref
+        
+Others
 
+        Exchange_Rates_Ref
+        
         Exchange_Rates_Ref_To_Ref_Values_Mappings
         Exchange_Rates_Ref_To_Ref_Values
                 Exchange_Rates_Ref_To_Currency
