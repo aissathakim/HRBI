@@ -1,6 +1,70 @@
 # HRBI
 
-lun : union
+Load:
+
+                Action_Entity_To_Action_Entity
+                Bonus_Entity_To_Bonus_Entity
+                Cost_Center
+                Cost_Center_Fnc_Area_To_Cost_Center_Fnc_Area
+                Cost_Center_Fnc_Area_To_Fnc_Area
+                Divisions
+                Employee_Ad_To_Employee_Ad
+                Employee_Champion_To_Employee_Champion
+                Employee_Division_Group_To_Division_Group
+                Employee_Division_Group_To_Employee_Division_Group
+                Employee_Division_To_Division
+                Employee_Division_To_Org_Unit
+                Employee_Emp_Aux_Man_Ref_To_Employee_Emp_Aux_Man_Ref
+                Employee_Entity_To_Employee_Entity
+                Employee_Groups_To_Employee_Groups
+                Employee_Groups_To_Groups
+                Employee_HSA_To_Employee_HSA
+                Employees
+                Exchange_Rates_Ref_To_Currency
+                Exchange_Rates_Ref_To_Exchange_Rates_Ref
+                Job_Entity_To_Job_Entity
+                Job_To_Job
+                Jobs
+                Location
+                Location_Type
+                Locations_Hrmny_Ref_To_Locations_Hrmny_Ref
+                Locations_Ref_To_Locations_Ref
+                Org_Unit
+                Payroll
+                Position_Entity_To_Position_Entity
+                Ref_Default_Values_To_Ref_Default_Values
+                Ref_Values_Mappings_To_Ref_Values_Mappings
+                Ref_Values_To_Ref_Values
+                Salary_Entity_To_Salary_Entity
+                
+Load:
+
+                01_Action_Entity_To_Action_Entity
+                02_Bonus_Entity_To_Bonus_Entity
+                03_Cost_Center_Fnc_Area_To_Cost_Center_Fnc_Area
+                03_Cost_Center_Fnc_Area_To_Fnc_Area
+                04_Employee_Ad_To_Employee_Ad
+                05_Employee_Champion_To_Employee_Champion
+                06_Employee_Division_To_Org_Unit
+                07_Employee_Division_Group_To_Division_Group
+                07_Employee_Division_Group_To_Division_Group_Location_Type
+                08_Employee_Emp_Aux_Man_Ref_To_Employee_Emp_Aux_Man_Ref
+                09_Employee_Entity_To_Employee_Entity
+                10_Employee_Groups_To_Employee_Groups
+                10_Employee_Groups_To_Groups
+                11_Employee_HSA_To_Employee_HSA
+                12_Exchange_Rates_Ref_To_Currency
+                12_Exchange_Rates_Ref_To_Exchange_Rates_Ref
+                14_Job_Entity_To_Job_Entity
+                15_Locations_Hrmny_Ref_To_Locations_Hrmny_Ref
+                16_Locations_Ref_To_Locations_Ref
+                17_Position_Entity_To_Position_Entity
+                18_Ref_Default_Values_To_Ref_Default_Values
+                19_Ref_Values_To_Ref_Values
+                20_Ref_Values_Mappings_To_Ref_Values_Mappings
+                21_Salary_Entity_To_Salary_Entity    
+  
+lun :Union
 
                 01_Action_Entity_To_Ranges
                 01_Action_Entity_To_Ref_Values
@@ -13,51 +77,51 @@ lun : union
                 03_Cost_Center_Fnc_Area_To_Ref_Values
                 03_Cost_Center_Fnc_Area_To_Ref_Values_Mappings
 
-        04_Employee_Ad_To_Employee_Ad
+        04_
 
-        05_Employee_Champion_To_Employee_Champion
+        05_
         
                 06_07_Division
                 07_Location_Type
                 
-        08_Employee_Emp_Aux_Man_Ref_To_Employee_Emp_Aux_Man_Ref
+        08_
         
                 09_Employee_Entity_To_Employee_DT
                 09_Employee_Entity_To_Ranges
                 09_Employee_Entity_To_Ref_Values
                 09_Employee_Entity_To_Ref_Values_Mappings
                 
-        10_Employee_Groups_To_Employee_Groups
+        10_
         
-        11_Employee_HSA_To_Employee_HSA
+        11_
         
                 12_Exchange_Rates_Ref_To_Ref_Values
                 12_Exchange_Rates_Ref_To_Ref_Values_Mappings
                 
-        13_Job_To_Job
+        13_
         
                 14_Job_Entity_To_Ranges
                 14_Job_Entity_To_Ref_Values
                 14_Job_Entity_To_Ref_Values_Mappings
                 
-        15_Locations_Hrmny_Ref_To_Locations_Hrmny_Ref
+        15_
 
-        16_Locations_Ref_To_16_Locations_Ref
+        16_
         
                 17_Position_Entity_To_Ranges
                 17_Position_Entity_To_Ref_Values
                 17_Position_Entity_To_Ref_Values_Mappings
                 
-        18_Ref_Default_Values_To_Ref_Default_Values
-        19_Ref_Values_To_Ref_Values
-        20_Ref_Values_Mappings_To_Ref_Values_Mappings
+        18_
+        19_
+        20_
 
                 21_Salary_Entity_To_Ranges
                 21_Salary_Entity_To_Ref_Values
                 21_Salary_Entity_To_Ref_Values_Mappings
 
 
-ldv :dataVault
+ldv :DataVault
 
         01_Action_Entity_To_Action_Entity
         01_Action_Entity_To_Range
@@ -207,6 +271,30 @@ ldt : dataTime
         21_Salary_Entity
 
 
+Tables:
+
+                Action_Entity
+                Bonus_Entity
+                Cost_Center
+                Employee_Ad
+                Employee_Champion
+                Employee_Division_Group
+                Employee_Division
+                Employee_Emp_Aux_Man_Ref
+                Employee_Entity
+                Employee_Groups
+                Employee_HSA
+                Exchange_Rates_Ref
+                Job_Entity
+                Job
+                Locations_Ref
+                Locations_Hrmny_Ref
+                Position_Entity
+                Ref_Default_Values
+                Ref_Values_Mappings
+                Ref_Values
+                Salary_Entity
+                
 Action_Entity
 
         Action_Entity_To_Ref_Values_Mappings
