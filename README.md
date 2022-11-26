@@ -114,3 +114,20 @@ Position_Entity
         Position_Entity_To_Org_Unit
         Position_Entity_To_Payroll
         
+Salary_Entity
+        Salary_Entity_To_Range
+        Salary_Entity_To_Effective_Date
+
+                SALARY_START_DT
+                SALARY_END_DT
+                TARGET_BONUS_START_DT
+                TARGET_BONUS_END_DT
+                
+        Salary_Entity_To_Ref_Values_Mappings
+        Salary_Entity_To_Ref_Values
+                Salary_Entity_To_Compensation_Type
+                Salary_Entity_To_Currency
+                Salary_Entity_To_Salary_Level
+                Salary_Entity_To_Pay_Scale_Group]
+                Salary_Entity_To_Salary_Reason
+        
