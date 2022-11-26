@@ -115,6 +115,7 @@ Position_Entity
         Position_Entity_To_Payroll
         
 Salary_Entity
+
         Salary_Entity_To_Range
         Salary_Entity_To_Effective_Date
 
@@ -130,4 +131,33 @@ Salary_Entity
                 Salary_Entity_To_Salary_Level
                 Salary_Entity_To_Pay_Scale_Group]
                 Salary_Entity_To_Salary_Reason
+
+Exchange_Rates_Ref
+
+        Exchange_Rates_Ref_To_Ref_Values_Mappings
+        Exchange_Rates_Ref_To_Ref_Values
+                Exchange_Rates_Ref_To_Currency
+
+Ref_Values_Mappings
+
+        Ref_Values_Mappings_To_Ref_Values_Mappings
+        Ref_Values_Mappings_To_Ref_Values
         
+Ref_Values
+
+        Ref_Values_To_Ref_Values
+        
+Cost_Center_Fnc_Area   
+
+        Cost_Center_Fnc_Area_To_Cost_Center
+        
+Locations_Ref
+
+        Locations_Ref_To_Location
+        Locations_Ref_To_Location_Type
+        
+Employee_Division_Group
+
+        Employee_Division_Group_To_Location_Type
+        
+
